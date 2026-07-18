@@ -1,3 +1,15 @@
 imp/
 .venv
 .env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+.next/
+node_modules/
