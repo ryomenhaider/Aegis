@@ -4,4 +4,4 @@
 
 #### Day1
 
-- Started working on the project. Set up the development environment and created the initial project structure.
+- 
