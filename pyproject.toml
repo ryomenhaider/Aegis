@@ -6,10 +6,12 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.139.2",
+    "hermes-plt>=0.2.2",
     "numpy>=2.4.6",
     "pandas>=3.0.3",
     "river>=0.25.0",
     "scikit-learn>=1.9.0",
+    "supabase>=2.31.0",
     "typer>=0.27.0",
     "uvicorn>=0.51.0",
     "xgboost>=3.2.0",

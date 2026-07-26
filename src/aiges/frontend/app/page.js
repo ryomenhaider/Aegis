@@ -28,7 +28,7 @@ export default function LandingPage() {
         </p>
 
         <Link
-          href="/dashboard"
+          href="/auth/login"
           className="mt-8 inline-flex items-center gap-2 rounded bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-colors hover:bg-foreground/90"
         >
           Open Dashboard

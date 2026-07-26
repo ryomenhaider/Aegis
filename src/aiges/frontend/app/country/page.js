@@ -1,20 +1,25 @@
-import { AppLayout } from "@/components/layout/AppLayout";
-import { Card, CardContent } from "@/components/ui/Card";
-import { Globe2 } from "lucide-react";
+import CountrySearch from "@/components/country/CountrySearch";
 
-export default function CountriesPage() {
-  return (
-    <AppLayout title="Countries">
-      <Card>
-        <CardContent className="flex flex-col items-center justify-center gap-3 py-16 text-center">
-          <Globe2 className="h-8 w-8 text-muted-foreground" strokeWidth={1.5} />
-          <p className="text-sm font-medium">Country risk profiles are coming soon</p>
-          <p className="max-w-sm text-sm text-muted-foreground">
-            This view will surface per-country risk scores once Hermes
-            integration lands in a future release.
-          </p>
-        </CardContent>
-      </Card>
-    </AppLayout>
-  );
+export const metadata = {
+    title: "Country Intelligence",
+};
+
+export default function CountryPage() {
+    return (
+        <main className="flex min-h-screen items-center justify-center bg-black px-6 text-white">
+            <div className="w-full max-w-4xl text-center">
+
+                <h1 className="mb-4 text-5xl font-bold">
+                    Country Intelligence
+                </h1>
+
+                <p className="mb-12 text-neutral-400">
+                    Search any ISO Alpha-3 country code.
+                </p>
+
+                <CountrySearch />
+
+            </div>
+        </main>
+    );
 }
