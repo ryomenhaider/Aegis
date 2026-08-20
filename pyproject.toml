@@ -5,7 +5,9 @@ description = "Risk Intelligence Platform"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-
+    "dotenv>=0.9.9",
+    "hermes-plt>=0.2.7",
+    "supabase>=2.31.0",
 ]
 
 [project.scripts]
