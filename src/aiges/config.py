@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 
-NEWS_API = os.getenv('NEWS_DATA_API')
+NEWS_API = os.getenv("NEWS_DATA_API")
